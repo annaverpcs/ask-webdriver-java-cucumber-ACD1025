@@ -1,0 +1,297 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1366077858,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open url \"https://skryabin.com/market/quote.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://skryabin.com/market/quote.html",
+                  "offset": 12
+                }
+              ],
+              "location": "PredefinedStepDefs.iOpenUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163350437,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I resize window to 1920 and 1080",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1920",
+                  "offset": 19
+                },
+                {
+                  "val": "1080",
+                  "offset": 28
+                }
+              ],
+              "location": "PredefinedStepDefs.iResizeWindowToAnd(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-22T20:44:20.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4614759876,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate responsive UI behavior",
+        "description": "",
+        "id": "quote-test-scenarios;validate-responsive-ui-behavior",
+        "after": [
+          {
+            "result": {
+              "duration": 164937057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150777722,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see page title as \"Get a Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Get a Quote",
+                  "offset": 28
+                }
+              ],
+              "location": "PredefinedStepDefs.iShouldSeePageTitleAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114987010,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I resize window to 1920 and 1080",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1920",
+                  "offset": 19
+                },
+                {
+                  "val": "1080",
+                  "offset": 28
+                }
+              ],
+              "location": "PredefinedStepDefs.iResizeWindowToAnd(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204425502,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "element with xpath \"//b[@id\u003d\u0027location\u0027]\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//b[@id\u003d\u0027location\u0027]",
+                  "offset": 20
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldBeDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39653719,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "element with xpath \"//b[@id\u003d\u0027location\u0027]\" should contain text \"Los Altos, CA 94022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//b[@id\u003d\u0027location\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "Los Altos, CA 94022",
+                  "offset": 62
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldContainText(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115709904,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I resize window to 820 and 1180",
+            "match": {
+              "arguments": [
+                {
+                  "val": "820",
+                  "offset": 19
+                },
+                {
+                  "val": "1180",
+                  "offset": 27
+                }
+              ],
+              "location": "PredefinedStepDefs.iResizeWindowToAnd(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86407236,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "element with xpath \"//b[@id\u003d\u0027location\u0027]\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//b[@id\u003d\u0027location\u0027]",
+                  "offset": 20
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldBeDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38281735,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "element with xpath \"//b[@id\u003d\u0027location\u0027]\" should contain text \"Los Altos, CA 94022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//b[@id\u003d\u0027location\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "Los Altos, CA 94022",
+                  "offset": 62
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldContainText(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122700500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I resize window to 375 and 667",
+            "match": {
+              "arguments": [
+                {
+                  "val": "375",
+                  "offset": 19
+                },
+                {
+                  "val": "667",
+                  "offset": 27
+                }
+              ],
+              "location": "PredefinedStepDefs.iResizeWindowToAnd(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40452249,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "element with xpath \"//b[@id\u003d\u0027location\u0027]\" should not be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//b[@id\u003d\u0027location\u0027]",
+                  "offset": 20
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldNotBeDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cucumber"
+          },
+          {
+            "name": "@cucumber1"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Quote Test Scenarios",
+    "description": "",
+    "id": "quote-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/quote.feature",
+    "tags": [
+      {
+        "name": "@cucumber",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
