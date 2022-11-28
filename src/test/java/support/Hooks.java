@@ -1,4 +1,4 @@
-/*
+
 package support;
 
 import cucumber.api.Scenario;
@@ -27,4 +27,4 @@ public class Hooks {
         TestContext.teardown();
     }
 }
-*/
+

@@ -32,3 +32,17 @@ Feature: Smoke steps
     Then I wait for 3 sec
     Then element with xpath "//div[@id='serp_organic']/div[1]/div[@class='serp-result-web-text']" should contain text "Cucumber"
 
+  @predefined4
+#https://www.givewater.com
+  Scenario: Search engine via givewater.com
+    Given I open url "https://www.givewater.com"
+    Then I should see page title contains "giveWater"
+    Then element with xpath "//input[@id='site-search']" should be present
+    When I type "Cucumber" into element with xpath "//input[@id='site-search']"
+    Then element with xpath "//div[@class='pum-content popmake-content']" should be present
+    Then I click on element with xpath "//button[@class='pum-close popmake-close']"
+    Then I click on element with xpath "//button[@id='button-addon2']"
+    Then I wait for 2 sec
+    Then element with xpath "//div[@class='layout__mainline']" should be present
+    Then element with xpath "//div[@class='layout__mainline']" should contain text "Cucumber"
+
