@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: support.TestRunner
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in support.TestRunner
-support.TestRunner.initializationError  Time elapsed: 0.005 s  <<< ERROR!
-java.lang.IllegalArgumentException: Not a file or directory: /Users/averkhovskaya/PCS/Anna/ask-webdriver-java-cucumber-ACD1025/predefined2
-
