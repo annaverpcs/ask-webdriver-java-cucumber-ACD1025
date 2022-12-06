@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = {"definitions", "support"},
        // tags = {"@predefined"} // same as VM option -Dcucumber.options="--tags @predefined"
-        tags = {"@regression"}
+        tags = {"@regression","@predefined","@webdiver"}
 )
 public class TestRunner {
     @BeforeClass

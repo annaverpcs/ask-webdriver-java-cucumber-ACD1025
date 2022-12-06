@@ -98,12 +98,10 @@ public class WeDriverStepDefs {
         System.out.println("sName " + sName);
         Boolean isPresent = getDriver().findElement(By.xpath("//input[@id='name' and @value='" + sActualName + "']")).isDisplayed();
         System.out.println("isPresent " + isPresent);
+        String sName1 = getDriver().findElement(By.xpath("//input[@id='name']")).getAttribute("value");
+        System.out.println("getAttribute output " + sName1);
         assertEquals(true, isPresent);
-
-
-
-
-
-
     }
+
+
 }

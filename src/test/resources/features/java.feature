@@ -12,10 +12,16 @@
     @Java3
     Scenario: Print 3 string
       Given I print "This" and "is a" and "good day"
+
     @Java4
-    Scenario: Practice with numbers
-      Given I work with number 10 and number 3
-      Then I identify that the number 11 is odd or even
+    Scenario Outline: Practice with numbers
+      Given I work with number <iNum1> and number <iNum2>
+      Then I identify that the number <iNum> is odd or even
+      Examples:
+        | iNum1 | iNum2 | iNum |
+        | 10    | 3     | 11   |
+        | 1   | 3     | 4   |
+        | 10    | 30     |40   |
 
       @Java5
       Scenario: Practice with Arrays
